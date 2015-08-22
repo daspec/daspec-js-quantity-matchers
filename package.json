@@ -1,0 +1,42 @@
+{
+  "name": "daspec-quantity-matchers",
+  "version": "1.0.0",
+  "description": "Quantity Matchers for DaSpec",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/daspec/daspec-js-quantity-matchers"
+  },
+  "keywords": [
+    "daspec",
+    "test",
+    "tdd",
+    "bdd",
+    "specbyexample",
+    "junit-xml",
+    "junit"
+  ],
+  "bugs": {
+    "url": "https://github.com/daspec/daspec-js-quantity-matchers/issues"
+  },
+  "homepage": "http://daspec.com",
+  "files": [
+    "src/quantity-matchers.js"
+  ],
+  "scripts": {
+    "pretest": "jshint src spec",
+    "test": "jasmine"
+  },
+  "main": "src/quantity-matchers.js",
+  "devDependencies": {
+    "jasmine": "^2.3.2",
+    "jshint": "^2.8.0"
+  },
+  "dependencies": {
+    "daspec": ">=1.0.0",
+    "js-quantities": "^1.5.0"
+  },
+  "engines": {
+    "node": ">=0.12"
+  }
+}
